@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data - do not upload industrial datasets
+data/raw/
+data/processed/
+data/external/
+data/interim/
+
+# Large/generated data files
+*.dat
+*.parquet
+*.feather
+*.csv
+*.pkl
+*.joblib
+
+# Local notebooks and temporary files
+.ipynb_checkpoints/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
