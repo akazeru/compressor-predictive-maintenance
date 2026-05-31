@@ -1,0 +1,4 @@
+# Este archivo existe para que git rastree el directorio data/events/.
+# Copiar aquí los archivos de eventos renombrados:
+#   CompressorMsgs_INDNº1.txt  (desde equipos/.../BF_101803.1_.../reports_lang/CompressorMsgs.txt)
+#   CompressorMsgs_INDNº2.txt  (desde equipos/.../BF_101803.2_.../reports_lang/CompressorMsgs.txt)

@@ -217,17 +217,18 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Project data - do not upload industrial datasets
-data/raw/
-data/processed/
-data/external/
-data/interim/
-
-# Large/generated data files
+# ── Datos industriales crudos — NO subir al repositorio (9.3 GB) ──────────────
+# Los archivos DAT del grabador MCS se almacenan fuera del repo.
+# Ver data/README.md para instrucciones de configuración local.
+equipos/
 *.dat
-*.parquet
+
+# data/processed/ y data/events/ SÍ se incluyen (paquete de reproducibilidad)
+# El archivo df_dataset.parquet (~3 MB) y los logs de eventos (.txt) son
+# necesarios para que los colaboradores ejecuten el notebook sin los DAT.
+
+# Archivos de datos grandes que no forman parte del paquete de reproducibilidad
 *.feather
-*.csv
 *.pkl
 *.joblib
 
@@ -238,3 +239,4 @@ data/interim/
 # OS files
 .DS_Store
 Thumbs.db
+*.bak.*

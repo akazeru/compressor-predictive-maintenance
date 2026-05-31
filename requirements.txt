@@ -1,0 +1,23 @@
+# ── Mantenimiento Predictivo KAESER CSDX165 ───────────────────────────────────
+# Curso: IA Aplicada a la Industria — USACH, Semestre 1, 2026
+# Autor: Felipe Soto
+#
+# Instalación completa (incluye MLP con TensorFlow):
+#   pip install -r requirements.txt
+#
+# Sin TensorFlow (solo Decision Tree y Random Forest):
+#   pip install numpy pandas matplotlib scikit-learn pyarrow
+#
+# En Google Colab, numpy / pandas / matplotlib / scikit-learn / tensorflow
+# ya están instalados. Solo ejecutar:
+#   !pip install -q pyarrow
+# ──────────────────────────────────────────────────────────────────────────────
+
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+scikit-learn>=1.0.0
+pyarrow>=8.0.0        # requerido para leer y escribir archivos .parquet
+
+# MLP — opcional. Comentar si no se requiere la celda de red neuronal.
+tensorflow>=2.9.0

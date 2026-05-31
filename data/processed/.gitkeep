@@ -1,0 +1,3 @@
+# Este archivo existe para que git rastree el directorio data/processed/.
+# El archivo df_dataset.parquet debe colocarse aquí.
+# Generarlo ejecutando notebooks/proyecto_ia.ipynb con PARQUET_MODE = False.
